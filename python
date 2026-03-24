@@ -1,0 +1,11 @@
+import streamlit as st
+
+st.title(" AgriBot - Smart Crop Consultant")
+
+user_input = st.text_input("Ask your farming question:")
+
+if user_input:
+    if "crop" in user_input.lower():
+        st.write("Recommended crop: Rice ")
+    else:
+        st.write("Please provide more farming details.")
