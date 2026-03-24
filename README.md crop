@@ -1,0 +1,6 @@
+ AgriBot – Smart Crop Consultant
+
+AgriBot is an AI chatbot to help farmers with crop suggestions.
+
+## Run the app
+streamlit run app.py
